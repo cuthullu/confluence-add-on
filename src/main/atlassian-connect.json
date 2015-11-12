@@ -1,0 +1,26 @@
+{ 
+	"modules" : {
+		"webItems" : []
+	},
+	"key" : "com.example.plugins.tutorial.confluence.spacebp.spacebp",
+	"name" : "Scott Logic Space",
+	"version" : "1.0",
+	"description" : "This is the com.example.plugins.tutorial.confluence.spacebp:spacebp plugin for Atlassian Confluence.",
+	"vendor" : {
+		"name" : "Scott Logic ltd",
+		"url" : "http://www.scottlogic.com"
+	},
+	"links" : {},
+	"lifecycle": {
+    	"installed": "/installed",
+    	"uninstalled": "/uninstalled"
+  	},
+  	"baseUrl": "http://www.example.com/connect/jira",
+	"authentication": {
+		"type": "jwt"
+	},
+	 "scopes": [
+	    "write",
+	    "read"
+	]
+}
