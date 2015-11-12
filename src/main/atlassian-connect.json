@@ -15,7 +15,7 @@
     	"installed": "/installed",
     	"uninstalled": "/uninstalled"
   	},
-  	"baseUrl": "http://www.example.com/connect/jira",
+  	"baseUrl": "https://github.com/thullSL/confluence-add-on",
 	"authentication": {
 		"type": "jwt"
 	},
